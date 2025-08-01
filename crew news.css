@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+    color: whitesmoke;
+    background-color: rgb(73, 73, 73);
+    justify-content: center;
+
+}
+h1{
+    font-size: 56px;
+}
+img{
+    width: 20%;
+    margin-right: 50vw;
+    transition: all 500ms ease-in-out;
+    border-radius: 1vw;
+}
+img:hover{
+    cursor: pointer;
+    scale: 1.01;
+    box-shadow: 5px 10px 15px darkgray, 10px 5px 15px rgb(63, 57, 57);
+    border-radius: 0;
+}
+.btn1{
+    background-color: maroon;
+width: 180px;
+height: 57px;
+box-sizing: border-box;
+border-radius: 10px;
+outline: none;
+font-family: "Montserrat", serif;
+color: rgb(255, 255, 255);
+font-size: 16px;
+letter-spacing: 1.5px;  
+margin: 0px 15px;
+transition: 250ms all ease-in;
+cursor: pointer;
+outline: none;
+border: none;
+}
+.btn1:hover{
+    transform: scale(1.05);
+    border-image: linear-gradient(to right, #fff, #fc0000) 1; 
+    box-shadow:  0 0 20px rgba(136, 46, 11, 0.953);
+    color: wheat;
+    border-radius: 6px;
+  
+
+}
